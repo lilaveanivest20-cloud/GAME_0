@@ -1,0 +1,107 @@
+export interface ArchipelagoTranslations {
+  appTitle: string;
+  appSlogan: string;
+  nav: {
+    world: string;
+    map2d: string;
+    islands: string;
+    ide: string;
+    labs: string;
+    projects: string;
+    careers: string;
+    teacher: string;
+    admin: string;
+    profile: string;
+    onboarding: string;
+  };
+  onboarding: {
+    welcomeTitle: string;
+    welcomeSubtitle: string;
+    startBtn: string;
+    chooseLang: string;
+    chooseProfile: string;
+    school: string;
+    schoolDesc: string;
+    vocational: string;
+    vocationalDesc: string;
+    college: string;
+    collegeDesc: string;
+    university: string;
+    universityDesc: string;
+    chooseGrade: string;
+    chooseInterests: string;
+    finishOnboarding: string;
+  };
+  world: {
+    title: string;
+    subtitle: string;
+    mode3D: string;
+    mode2D: string;
+    enterIsland: string;
+    progress: string;
+    level: string;
+    completed: string;
+    locked: string;
+    orbitControlsHelp: string;
+    statsOverview: string;
+  };
+  ide: {
+    run: string;
+    test: string;
+    submit: string;
+    reset: string;
+    terminal: string;
+    tests: string;
+    variables: string;
+    callStack: string;
+    theory: string;
+    objective: string;
+    hints: string;
+    oracleTitle: string;
+    oracleDesc: string;
+    conceptHint: string;
+    pseudocodeHint: string;
+    solutionHint: string;
+    aiMentor: string;
+    codeReview: string;
+    running: string;
+    ready: string;
+    allTestsPassed: string;
+    someTestsFailed: string;
+    executionMode: string;
+  };
+  labs: {
+    title: string;
+    linuxTerminal: string;
+    sqlLab: string;
+    gitLab: string;
+    debugger: string;
+    algorithmLab: string;
+    memoryInspector: string;
+    robotAdventure: string;
+  };
+  roles: {
+    student: string;
+    teacher: string;
+    master: string;
+    admin: string;
+    switchRole: string;
+  };
+  common: {
+    level: string;
+    xp: string;
+    streak: string;
+    save: string;
+    close: string;
+    back: string;
+    next: string;
+    mastered: string;
+    practicing: string;
+    learning: string;
+    notStarted: string;
+    copy: string;
+    copied: string;
+    success: string;
+    error: string;
+  };
+}

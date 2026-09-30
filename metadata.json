@@ -1,0 +1,6 @@
+{
+  "name": "АРХИПЕЛАГ КОДА",
+  "description": "Enterprise Interactive Coding Education Platform. Построй свой путь в мире программирования.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

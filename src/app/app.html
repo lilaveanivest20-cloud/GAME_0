@@ -1,0 +1,43 @@
+<div class="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
+  <!-- Top Navigation Header -->
+  <app-navbar></app-navbar>
+
+  <!-- Main View Routing via State Signals -->
+  <main class="flex-1 flex flex-col">
+    @switch (effectiveView()) {
+      @case ('onboarding') {
+        <app-onboarding></app-onboarding>
+      }
+      @case ('world') {
+        <app-world-3d></app-world-3d>
+      }
+      @case ('map2d') {
+        <app-world-2d></app-world-2d>
+      }
+      @case ('island-detail') {
+        <app-island-detail></app-island-detail>
+      }
+      @case ('ide') {
+        <app-ide></app-ide>
+      }
+      @case ('labs') {
+        <app-labs-hub></app-labs-hub>
+      }
+      @case ('projects') {
+        <app-projects-catalog></app-projects-catalog>
+      }
+      @case ('careers') {
+        <app-career-paths></app-career-paths>
+      }
+      @case ('teacher') {
+        <app-teacher-portal></app-teacher-portal>
+      }
+      @case ('admin') {
+        <app-admin-portal></app-admin-portal>
+      }
+      @default {
+        <app-world-3d></app-world-3d>
+      }
+    }
+  </main>
+</div>
